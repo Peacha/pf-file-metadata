@@ -1,0 +1,32 @@
+<HTML>
+	<HEAD>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <title>File Metadata Microservice</title>
+	    <script src="https://kit.fontawesome.com/a8a2a9bcbd.js" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" type="text/css" href="/styles.css">
+	</HEAD>
+	<BODY>
+		<div id="app-container">
+			<h1>File Metadata Microservice</h1>
+				<p>
+					Upload a file below
+				</p>
+			<div id="form-container">
+				<form class="input-form" method="POST" action="http://localhost:3000/api/fileanalyse" enctype="multipart/form-data">
+					<label for="file-uploader" id="form-label">Browse File: </label>
+					<input id="file-uploader" name="upfile" type="file" >
+					<input id="submit" type="submit" value="Upload">
+				</form>
+			</div>
+			<div id="contact">
+				<p>Presented by paul.</p>
+				<a href="https://www.freecodecamp.org/pauliefin" class="link-container"><i class="fab fa-free-code-camp"></i></a>
+				<a href="https://codepen.io/peacha" class="link-container"><i class="fab fa-codepen"></i></a>
+				<a href="https://github.com/Peacha" class="link-container"><i class="fab fa-github"></i></a>
+				<a href="https://twitter.com/thepeacha" class="link-container"><i class="fab fa-twitter"></i></a>
+			</div>
+		</div>
+	</BODY>
+</HTML>
