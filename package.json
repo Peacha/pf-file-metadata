@@ -1,0 +1,31 @@
+{
+  "name": "pf-file-metadata",
+  "version": "1.0.0",
+  "description": "FCC APIs and Microservices Projects - File Metadata Microservice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Peacha/pf-file-metadata.git"
+  },
+  "keywords": [
+    "file",
+    "metadata",
+    "freecodecamp",
+    "microservice",
+    "node",
+    "express"
+  ],
+  "author": "Paul Finegan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Peacha/pf-file-metadata/issues"
+  },
+  "homepage": "https://github.com/Peacha/pf-file-metadata#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
